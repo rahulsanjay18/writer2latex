@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifest:manifest PUBLIC "-//OpenOffice.org//DTD Manifest 1.0//EN" "Manifest.dtd">
+<manifest:manifest>
+    <manifest:file-entry
+     manifest:full-path="W2LOptions.xcu"
+     manifest:media-type="application/vnd.sun.star.configuration-data"/>
+ 
+    <manifest:file-entry
+     manifest:full-path="Paths.xcu"
+     manifest:media-type="application/vnd.sun.star.configuration-data"/>
+ 
+    <manifest:file-entry
+	 manifest:full-path="help"
+	 manifest:media-type="application/vnd.sun.star.help"/>
+
+</manifest:manifest>
+  

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<oor:component-data oor:name="ToolbarOptions"
+  oor:package="org.openoffice.da.Writer2LaTeX.toolbar"
+  xml:lang="en-US"
+  xmlns:oor="http://openoffice.org/2001/registry"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <node oor:name="Applications">
+        <prop oor:name="AfterExport" oor:type="xs:short">
+            <value>2</value><!-- compile and preview -->
+        </prop>
+        <node oor:name="LaTeX" oor:type="xs:string">
+            <prop oor:name="UseDefault">
+                <value>false</value>
+            </prop>
+            <prop oor:name="Executable">
+                <value>latex</value>
+            </prop>
+            <prop oor:name="Options">
+                <value>--interaction=batchmode %s</value>
+            </prop>
+        </node>
+        <node oor:name="PdfLaTeX" oor:type="xs:string">
+            <prop oor:name="UseDefault">
+                <value>false</value>
+            </prop>
+            <prop oor:name="Executable">
+                <value>pdflatex</value>
+            </prop>
+            <prop oor:name="Options">
+                <value>--interaction=batchmode %s</value>
+            </prop>
+        </node>
+        <node oor:name="XeLaTeX" oor:type="xs:string">
+            <prop oor:name="UseDefault">
+                <value>false</value>
+            </prop>
+            <prop oor:name="Executable">
+                <value>xelatex</value>
+            </prop>
+            <prop oor:name="Options">
+                <value>--interaction=batchmode %s</value>
+            </prop>
+        </node>
+        <node oor:name="BibTeX" oor:type="xs:string">
+            <prop oor:name="UseDefault">
+                <value>false</value>
+            </prop>
+            <prop oor:name="Executable">
+                <value>bibtex8</value>
+            </prop>
+            <prop oor:name="Options">
+                <value>%s</value>
+            </prop>
+        </node>
+        <node oor:name="Makeindex" oor:type="xs:string">
+            <prop oor:name="UseDefault">
+                <value>false</value>
+            </prop>
+            <prop oor:name="Executable">
+                <value>makeindex</value>
+            </prop>
+            <prop oor:name="Options">
+                <value>%s</value>
+            </prop>
+        </node>
+        <node oor:name="Mk4ht" oor:type="xs:string">
+            <prop oor:name="UseDefault">
+                <value>false</value>
+            </prop>
+            <prop oor:name="Executable">
+                <value>mk4ht</value>
+            </prop>
+            <prop oor:name="Options">
+                <value>oolatex %s</value>
+            </prop>
+        </node>
+        <node oor:name="Dvips" oor:type="xs:string">
+            <prop oor:name="UseDefault">
+                <value>true</value>
+            </prop>
+            <prop oor:name="Executable">
+                <value>dvips</value>
+            </prop>
+            <prop oor:name="Options">
+                <value>%s</value>
+            </prop>
+        </node>
+        <node oor:name="DVIViewer" oor:type="xs:string">
+            <prop oor:name="UseDefault">
+                <value>true</value>
+            </prop>
+            <prop oor:name="Executable">
+                <value>evince</value>
+            </prop>
+            <prop oor:name="Options">
+                <value>%s</value>
+            </prop>
+        </node>
+        <node oor:name="PostscriptViewer" oor:type="xs:string">
+            <prop oor:name="UseDefault">
+                <value>true</value>
+            </prop>
+            <prop oor:name="Executable">
+                <value>evince</value>
+            </prop>
+            <prop oor:name="Options">
+                <value>%s</value>
+            </prop>
+        </node>
+        <node oor:name="PdfViewer" oor:type="xs:string">
+            <prop oor:name="UseDefault">
+                <value>true</value>
+            </prop>
+            <prop oor:name="Executable">
+                <value>evince</value>
+            </prop>
+            <prop oor:name="Options">
+                <value>%s</value>
+            </prop>
+        </node>
+    </node>
+    <node oor:name="BibliographyOptions">
+        <prop oor:name="UseExternalBibTeXFiles" oor:type="xs:boolean">
+            <value>false</value>
+        </prop>
+        <prop oor:name="ConvertZoteroCitations" oor:type="xs:boolean">
+            <value>false</value>
+        </prop>
+        <prop oor:name="ConvertJabRefCitations" oor:type="xs:boolean">
+            <value>false</value>
+        </prop>
+        <prop oor:name="IncludeOriginalCitations" oor:type="xs:boolean">
+            <value>false</value>
+        </prop>
+        <prop oor:name="BibTeXLocation" oor:type="xs:short">
+            <value>2</value><!-- document directory -->
+        </prop>
+        <prop oor:name="BibTeXDir" oor:type="xs:string">
+            <value></value>
+        </prop>
+        <prop oor:name="BibTeXEncoding" oor:type="xs:short">
+            <value>0</value><!-- US ASCII -->
+        </prop>
+        <prop oor:name="UseNatbib" oor:type="xs:boolean">
+            <value>false</value>
+        </prop>
+        <prop oor:name="NatbibOptions" oor:type="xs:string">
+            <value></value>
+        </prop>
+    </node>
+</oor:component-data>

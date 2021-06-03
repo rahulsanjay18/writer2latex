@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:id="BibTeXEntry" dlg:left="117" dlg:top="53" dlg:width="275" dlg:height="118" dlg:closeable="true" dlg:moveable="true" dlg:title="Edit BibTeX references">
+ <dlg:bulletinboard>
+  <dlg:text dlg:id="FileLabel" dlg:tab-index="0" dlg:left="10" dlg:top="10" dlg:width="60" dlg:height="12" dlg:value="BibTeX file"/>
+  <dlg:menulist dlg:id="File" dlg:tab-index="1" dlg:left="75" dlg:top="10" dlg:width="120" dlg:height="12" dlg:help-url="org.openoffice.da.writer2latex.oxt:BibTeXFile" dlg:spin="true">
+   <script:event script:event-name="on-itemstatechange" script:macro-name="vnd.sun.star.UNO:FileChange" script:language="UNO"/>
+  </dlg:menulist>
+  <dlg:text dlg:id="EntryLabel" dlg:tab-index="9" dlg:left="10" dlg:top="24" dlg:width="60" dlg:height="12" dlg:value="BibTeX entry"/>
+  <dlg:menulist dlg:id="Entry" dlg:tab-index="2" dlg:left="75" dlg:top="24" dlg:width="120" dlg:height="12" dlg:help-url="org.openoffice.da.writer2latex.oxt:BibTeXEntry" dlg:spin="true">
+   <script:event script:event-name="on-itemstatechange" script:macro-name="vnd.sun.star.UNO:EntryChange" script:language="UNO"/>
+  </dlg:menulist>
+  <dlg:button dlg:id="New" dlg:tab-index="3" dlg:left="205" dlg:top="10" dlg:width="60" dlg:height="12" dlg:help-url="org.openoffice.da.writer2latex.oxt:BibTeXNew" dlg:value="New...">
+   <script:event script:event-name="on-mouseup" script:macro-name="vnd.sun.star.UNO:New" script:language="UNO"/>
+  </dlg:button>
+  <dlg:button dlg:id="Edit" dlg:tab-index="4" dlg:left="205" dlg:top="24" dlg:width="60" dlg:height="12" dlg:help-url="org.openoffice.da.writer2latex.oxt:BibTeXEdit" dlg:value="Edit">
+   <script:event script:event-name="on-mouseup" script:macro-name="vnd.sun.star.UNO:Edit" script:language="UNO"/>
+  </dlg:button>
+  <dlg:button dlg:id="Reload" dlg:tab-index="5" dlg:left="205" dlg:top="38" dlg:width="60" dlg:height="12" dlg:help-url="org.openoffice.da.writer2latex.oxt:BibTeXReload" dlg:value="Reload">
+   <script:event script:event-name="on-mouseup" script:macro-name="vnd.sun.star.UNO:Reload" script:language="UNO"/>
+  </dlg:button>
+  <dlg:text dlg:id="EntryInformation" dlg:tab-index="11" dlg:left="10" dlg:top="40" dlg:width="185" dlg:height="34"/>
+  <dlg:button dlg:id="Insert" dlg:tab-index="6" dlg:left="10" dlg:top="78" dlg:width="60" dlg:height="12" dlg:help-url="org.openoffice.da.writer2latex.oxt:BibTeXInsert" dlg:value="Insert reference" dlg:button-type="ok">
+   <script:event script:event-name="on-mouseup" script:macro-name="vnd.sun.star.UNO:InsertReference" script:language="UNO"/>
+  </dlg:button>
+  <dlg:button dlg:id="Update" dlg:tab-index="7" dlg:left="75" dlg:top="78" dlg:width="60" dlg:height="12" dlg:help-url="org.openoffice.da.writer2latex.oxt:BibTeXUpdate" dlg:value="Update references">
+   <script:event script:event-name="on-mouseup" script:macro-name="vnd.sun.star.UNO:Update" script:language="UNO"/>
+  </dlg:button>
+  <dlg:button dlg:id="Close" dlg:tab-index="8" dlg:left="140" dlg:top="78" dlg:width="60" dlg:height="12" dlg:help-url="org.openoffice.da.writer2latex.oxt:BibTeXClose" dlg:value="Close" dlg:button-type="cancel"/>
+  <dlg:button dlg:id="Help" dlg:tab-index="10" dlg:left="205" dlg:top="78" dlg:width="60" dlg:height="12" dlg:help-url="org.openoffice.da.writer2latex.oxt:BibTeXDialog" dlg:value="Help" dlg:button-type="help"/>
+  <dlg:text dlg:id="UpdateLabel" dlg:tab-index="12" dlg:left="10" dlg:top="94" dlg:width="253" dlg:height="20"/>
+ </dlg:bulletinboard>
+</dlg:window>

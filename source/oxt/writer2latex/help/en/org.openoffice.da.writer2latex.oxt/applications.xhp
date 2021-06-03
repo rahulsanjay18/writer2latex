@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+	<meta>
+        <topic id="writer2latex-applications" indexer="include">
+            <title xml-lang="en-US">Applications</title>
+            <filename>org.openoffice.da.writer2latex.oxt/applications.xhp</filename>
+        </topic>
+    </meta>
+    <body>
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:ConfigurationDialog" id="bm_configurationdialog"/>
+        <paragraph role="heading" level="1" xml-lang="en-US">Configuration of applications</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">On this page you can configure the interaction between Writer2LaTeX
+        and your LaTeX distribution as well as viewers for the different output formats.</paragraph>
+        <section id="howtoget" xml-lang="en-US">
+        	Select <emph>Tools - Options - Writer2LaTeX toolbar - Applications</emph>
+        </section>
+
+        <paragraph role="heading" level="2" xml-lang="en-US">Prerequisites</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US">This requires that you have installed certain software on your system.</paragraph>
+        <switch select="sys">
+  			<case select="WIN">
+  				<list type="unordered">
+  					<listitem>
+    					<paragraph role="paragraph" xml-lang="en-US">Writer2LaTeX needs a working LaTeX distribution<!-- including TeX4ht-->.
+    					MikTeX is recommended and can be downloaded from
+    					<link href="http://www.miktex.org" name="MikTeX download">http://www.miktex.org</link>.</paragraph>
+    				</listitem>
+  					<listitem>
+    					<paragraph role="paragraph" xml-lang="en-US">In addition, you should install viewers for PDF and PostScript files.
+    					Gsview is recommended and can be downloaded from
+    					<link href="http://pages.cs.wisc.edu/~ghost/gsview/" name="gsview download">http://pages.cs.wisc.edu/~ghost/gsview/</link>.
+    					Note that you have to install ghostscript as well (follow the links on the web site).</paragraph>
+    				</listitem>
+    			</list>
+  			</case>
+  			<case select="UNIX">
+  				<list type="unordered">
+  					<listitem>
+    					<paragraph role="paragraph" xml-lang="en-US">Writer2LaTeX needs a working LaTeX distribution<!-- which includes TeX4ht-->.
+    					<link href="http://www.tug.org/texlive/" name="TeX live">TeX live</link>
+    					is recommended and is available for most UNIX-like systems. The installation depends on your system.
+    					If you are using Debian or Ubuntu you can for example install the basic required packages by typing these commands from a terminal window:</paragraph>
+						<paragraph role="code" xml-lang="en-US">sudo apt-get install texlive
+						<br/>sudo apt-get install texlive-latex-extra
+    					<br/>sudo apt-get install texlive-xetex
+    					<!--<br/>sudo apt-get install tex4ht--></paragraph>
+    				</listitem>
+  					<listitem>
+    					<paragraph role="paragraph" xml-lang="en-US">Also you should install viewers for DVI, PDF and PostScript files.
+    					The viewers evince and okular can handle all formats and are recommended.
+    					You can also use a combination of the viewers xdvi, xpdf and ghostview.
+    					</paragraph>
+    				</listitem>
+    			</list>
+  			</case>
+  			<case select="MAC">
+  				<list type="unordered">
+  					<listitem>
+    					<paragraph role="paragraph" xml-lang="en-US">Writer2LaTeX needs a working LaTeX distribution<!-- which includes TeX4ht-->.
+						</paragraph>
+    				</listitem>
+  					<listitem>
+    					<paragraph role="paragraph" xml-lang="en-US">Also you should install viewers for DVI, PDF and PostScript files.
+    					</paragraph>
+    				</listitem>
+    			</list>
+				<paragraph xml-lang="en-US"><emph>Note</emph>: The Writer2LaTeX toolbar is not tested on Mac OS X.</paragraph>
+  			</case>
+		</switch>
+		
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:AfterExport" id="bm_afterexport"/>
+		<paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:AfterExport" visibility="hidden">Choose the desired behavior after export</ahelp></paragraph>
+		<paragraph role="heading" level="2" xml-lang="en-US">After Export</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US">After Export, Writer2LaTeX can build the result with LaTeX and display the final document in a viewer. Choose the desired behavior in the list.</paragraph>
+		<list type="unordered">
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US"><emph>Do nothing</emph> will only export the document to LaTeX</paragraph>
+			</listitem>
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US"><emph>Build with LaTeX</emph> will build the converted document with LaTeX to produce the final result in DVI, PDF or PostScript format</paragraph>
+			</listitem>
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US"><emph>Build with LaTeX and view result</emph> will display the final result in a DVI, PDF or PostScript viewer</paragraph>
+			</listitem>
+		</list>		
+		
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:ConfigurationAutoButton" id="bm_configurationautobutton"/>
+		<paragraph role="heading" level="2" xml-lang="en-US">Automatic Configuration</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US">If you click this button, Writer2LaTeX will try to locate the external programs
+		and configure them. You will be presented with a short report of the results. Any applications that Writer2LaTeX cannot find for
+		you should be configured manually.</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:ConfigurationAutoButton" visibility="hidden">Click here to let Writer2LaTeX configure your external applications automatically</ahelp></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:ConfigurationApplication" id="bm_configurationapplication"/>
+		<paragraph role="heading" level="2" xml-lang="en-US">Application</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US">Select the external application you wish to configure in the list.</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US">The available applications are:</paragraph>
+		<list type="unordered">
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US">PdfLaTeX: The pdflatex executable (used if you select PDF as your backend format)</paragraph>
+			</listitem>
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US">LaTeX: The latex executable (used for other backend formats)</paragraph>
+			</listitem>
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US">Dvips: The DVI to PostScript converter dvips (used if you select PostScript as your backend format)</paragraph>
+			</listitem>
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US">BibTeX: The bibtex executable (used if your document contains a bibliography)</paragraph>
+			</listitem>
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US">MakeIndex: The makeindex executable (used if your document contains an alphabetical index)</paragraph>
+			</listitem>
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US">DVI Viewer: Application to view DVI files</paragraph>
+			</listitem>
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US">PDF Viewer: Application to view PDF files</paragraph>
+			</listitem>
+			<listitem>
+				<paragraph role="paragraph" xml-lang="en-US">PostScript Viewer: Application to view PostScript files</paragraph>
+			</listitem>
+		</list>
+		<paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:ConfigurationApplication" visibility="hidden">Select the external application you wish to configure here</ahelp></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:UseDefault" id="bm_configurationusedefault"/>
+		<paragraph role="heading" level="2" xml-lang="en-US">Use the system's default application</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US">Select this if you wish to use the default application to view files
+		of the selected type.</paragraph>	
+		<paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:UseDefault" visibility="hidden">Select this to use the default application to view files of the selected type</ahelp></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:ConfigurationExecutable" id="bm_configurationexecutable"/>
+		<paragraph role="heading" level="2" xml-lang="en-US">Executable</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US">Type the full path to the executable or click <emph>Browse</emph> to find
+		the executable in your file system</paragraph>	
+		<paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:ConfigurationExecutable" visibility="hidden">Type the full path to the executable here or find it using the Browse button</ahelp></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:ConfigurationOptions" id="bm_configurationoptions"/>
+		<paragraph role="heading" level="2" xml-lang="en-US">Options</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US">Fill out any additional options here. Often you will only need the file name,
+		which is denoted <emph>%s</emph>.</paragraph>		
+		<paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:ConfigurationOptions" visibility="hidden">Fill out any additional options here, using %s to represent the file name</ahelp></paragraph>
+	</body>
+</helpdocument>

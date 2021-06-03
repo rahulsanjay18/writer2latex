@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<tree_view version="02-nov-2014">
+  <help_section application="writer2latex" id="w2l01_writer" title="Writer2LaTeX">
+      <topic id="writer2latex/org.openoffice.da.writer2latex.oxt/introduction.xhp">Introduction</topic>
+      <topic id="writer2latex/org.openoffice.da.writer2latex.oxt/menu.xhp">Menu and toolbar</topic>
+      <topic id="writer2latex/org.openoffice.da.writer2latex.oxt/bibtex.xhp">BibTeX references</topic>
+      <topic id="writer2latex/org.openoffice.da.writer2latex.oxt/export.xhp">LaTeX export</topic>
+      <topic id="writer2latex/org.openoffice.da.writer2latex.oxt/logviewer.xhp">View log files</topic>
+      <!--<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/import.xhp">LaTeX import</topic>-->
+      <node id="w2l01_writer_toolbar_configuration" title="Toolbar configuration">
+	      <topic id="writer2latex/org.openoffice.da.writer2latex.oxt/applications.xhp">Applications</topic>
+	      <topic id="writer2latex/org.openoffice.da.writer2latex.oxt/bibliography.xhp">Bibliography</topic>
+      </node>
+      <node id="w2l01_writer_configuration" title="Custom format">
+      	<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/Configuration/Introduction.xhp">Introduction</topic>
+      	<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/Configuration/Documentclass.xhp">Documentclass</topic>
+      	<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/Configuration/Headings.xhp">Headings</topic>
+      	<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/Configuration/Styles.xhp">Styles</topic>
+      	<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/Configuration/Characters.xhp">Characters</topic>
+      	<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/Configuration/Fonts.xhp">Fonts</topic>
+      	<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/Configuration/Pages.xhp">Pages</topic>
+      	<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/Configuration/Tables.xhp">Tables</topic>
+      	<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/Configuration/Figures.xhp">Figures</topic>
+      	<topic id="writer2latex/org.openoffice.da.writer2latex.oxt/Configuration/Textandmath.xhp">Text and math</topic>
+      </node>
+  </help_section>
+</tree_view>

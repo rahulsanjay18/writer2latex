@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+	<meta>
+        <topic id="writer2latex-menu" indexer="include">
+            <title xml-lang="en-US">Menu and toolbar</title>
+            <filename>org.openoffice.da.writer2latex.oxt/menu.xhp</filename>
+        </topic>
+    </meta>
+    <body>
+        <paragraph role="heading" level="1" xml-lang="en-US">Menu and toolbar</paragraph>
+
+        <paragraph role="heading" level="2" xml-lang="en-US">Using Writer2LaTeX as an export filter</paragraph>
+
+        <paragraph role="heading" level="3" xml-lang="en-US"><link href="org.openoffice.da.writer2latex.oxt/export.xhp"
+          name="Export LaTeX files">File - Export</link></paragraph>
+
+        <paragraph role="paragraph" xml-lang="en-US">Writer2LaTeX adds two entries to the <emph>File - Export</emph> 
+        menu in Writer</paragraph>
+        <list type="unordered">
+			<listitem>
+		        <paragraph role="paragraph" xml-lang="en-US"><emph>LaTeX 2e [Writer2LaTeX]</emph> to export the
+		        current document to LaTeX.</paragraph>
+			</listitem>
+			<listitem>
+		        <paragraph role="paragraph" xml-lang="en-US"><emph>BibTeX [Writer2LaTeX]</emph> to export the
+		        bibliographic references in the current document to BibTeX.</paragraph>
+			</listitem>
+		</list>
+        
+        <paragraph role="heading" level="2" xml-lang="en-US">Using the Writer2LaTeX toolbar</paragraph>
+
+        <paragraph role="paragraph" xml-lang="en-US">Writer2LaTeX adds a toolbar in Writer,
+        providing the following commands.</paragraph>
+
+        <paragraph role="heading" level="3" xml-lang="en-US"><link href="org.openoffice.da.writer2latex.oxt/bibtex.xhp"
+          name="Insert BibTeX reference">Insert BibTeX reference</link></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex:InsertBibTeX" id="bm_insertbibtex"/>
+        <paragraph role="paragraph" xml-lang="en-US">Insert a bibliographic reference to an item in a BibTeX file.</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex:InsertBibTeX" visibility="hidden">Insert reference to an item in a BibTeX file</ahelp></paragraph>
+
+        <paragraph role="heading" level="3" xml-lang="en-US"><link href="org.openoffice.da.writer2latex.oxt/export.xhp"
+          name="Export LaTeX files">Publish to LaTeX</link></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex:ProcessDocument" id="bm_processdocument"/>
+        <paragraph role="paragraph" xml-lang="en-US">Convert the document to LaTeX, process the result with LaTeX
+        and display the result in an external viewer.</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">Before you can use this feature, you need to
+        <link href="org.openoffice.da.writer2latex.oxt/applications.xhp" name="Applications">configure</link>
+        the external applications to use.
+        </paragraph>
+        
+		<paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex:ProcessDocument" visibility="hidden">Run LaTeX and display the result</ahelp></paragraph>
+
+        <paragraph role="heading" level="3" xml-lang="en-US"><link href="org.openoffice.da.writer2latex.oxt/logviewer.xhp"
+          name="View log files">View Log files</link></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex:ViewLog" id="bm_viewlog"/>
+        <paragraph role="paragraph" xml-lang="en-US">In case of any problems in the conversion process, you can view the log files created by
+        LaTeX, MakeIndex and BibTeX here</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex:ViewLog" visibility="hidden">View log files created by LaTeX, MakeIndex and BibTeX</ahelp></paragraph>
+
+        <paragraph role="heading" level="3" xml-lang="en-US"><link href="org.openoffice.da.writer2latex.oxt/Configuration/Introduction.xhp"
+          name="Confguration">Edit custom format</link></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex:EditCustomFormat" id="bm_editcustomformat"/>
+        <paragraph role="paragraph" xml-lang="en-US">Edit the custom export format. This format is used if you select
+        <emph>Custom</emph> as LaTeX format in the export dialog.</paragraph>
+
+	</body>
+</helpdocument>

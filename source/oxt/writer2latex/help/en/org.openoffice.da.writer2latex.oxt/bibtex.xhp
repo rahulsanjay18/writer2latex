@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+	<meta>
+        <topic id="writer2latex-bibtex" indexer="include">
+            <title xml-lang="en-US">Insert BibTeX references</title>
+            <filename>org.openoffice.da.writer2latex.oxt/bibtex.xhp</filename>
+        </topic>
+    </meta>
+    <body>
+    	<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:BibTeXDialog" id="bm_bibtexdialog"/>
+        <paragraph role="heading" level="1" xml-lang="en-US">Manage BibTeX reference</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">BibTeX is the standard database format for bibliographic references
+        in LaTeX.
+        This dialog is used to insert bibliographic references in %PRODUCTNAME Writer from BibTeX files.
+        This enables you to maintain your references in BibTeX, rather that using the bibliography database
+        in %PRODUCTNAME Writer.
+        </paragraph>
+        <section id="howtoget" xml-lang="en-US">
+        	Click the <emph>Bib</emph>-button on the toolbar
+        </section>
+        
+        <paragraph role="paragraph" xml-lang="en-US">The dialog presents a list of BibTeX files from a specific folder.
+        The folder to search is configured in the <link href="org.openoffice.da.writer2latex.oxt/bibliography.xhp"
+          name="Bibliography settings">bibliography settings</link>.</paragraph>
+          
+        <paragraph role="heading" level="2" xml-lang="en-US">Using the dialog</paragraph>
+        
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:BibTeXFile" id="bm_bibtexfile"/>
+        <paragraph role="heading" level="3" xml-lang="en-US">BibTeX file</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">Select the BibTeX file to use in this list.</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:BibTeXFile" visibility="hidden">Select the BibTeX file to use</ahelp></paragraph>
+                
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:BibTeXEntry" id="bm_bibtexentry"/>
+        <paragraph role="heading" level="3" xml-lang="en-US">BibTeX entry</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">Select the entry to use in this list. The list contains the keys of
+        all entries in the selected BibTeX file.
+        Basic information about the entry is displayed in the field below the list.</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:BibTeXEntry" visibility="hidden">Select the entry to use</ahelp></paragraph>
+        
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:BibTeXInsert" id="bm_bibtexinsert"/>
+        <paragraph role="heading" level="3" xml-lang="en-US">Insert reference</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">Click this button to insert a bibliographic reference to
+        the currently selected entry.</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:BibTeXInsert" visibility="hidden">Click to insert a reference to the current entry</ahelp></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:BibTeXUpdate" id="bm_bibtexupdate"/>
+        <paragraph role="heading" level="3" xml-lang="en-US">Update references</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">Click this to update all bibliographic references in the document.
+        You should do this if you have edited a BibTeX file. This will ensure that
+        the content of all references is in sync with the current content of the BibTeX files.
+        Writer2LaTeX will display a message to confirm the result.</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:BibTeXUpdate" visibility="hidden">Click to update the content of all references</ahelp></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:BibTeXClose" id="bm_bibtexclose"/>
+        <paragraph role="heading" level="3" xml-lang="en-US">Close</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">Click this button to close the dialog.</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:BibTeXClose" visibility="hidden">Click to close the dialog</ahelp></paragraph>
+        
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:BibTeXNew" id="bm_bibtexnew"/>
+        <paragraph role="heading" level="3" xml-lang="en-US">New</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">Click this button create a new BibTeX file in the configured
+        directory. Enter a name for the file in the dialog.</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:BibTeXNew" visibility="hidden">Click to create a new BibTeX file</ahelp></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:BibTeXEdit" id="bm_bibtexedit"/>
+        <paragraph role="heading" level="3" xml-lang="en-US">Edit</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">Click this button to edit the currently selected BibTeX file.
+        The file will open in your default BibTeX editor. If no default BibTeX editor was found on your system,
+        an error message is displayed.</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:BibTeXEdit" visibility="hidden">Click to edit the current file in your BibTeX editor</ahelp></paragraph>
+
+		<bookmark xml-lang="en-US" branch="hid/org.openoffice.da.writer2latex.oxt:BibTeXReload" id="bm_bibtexreload"/>
+        <paragraph role="heading" level="3" xml-lang="en-US">Reload</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">Click this button to reload the BibTeX files in the dialog.</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US"><ahelp hid="org.openoffice.da.writer2latex.oxt:BibTeXReload" visibility="hidden">Click to reload the BibTeX files</ahelp></paragraph>
+
+    </body>      
+</helpdocument>

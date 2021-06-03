@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+	<meta>
+        <topic id="w2lconfigtemplates" indexer="include">
+            <title xml-lang="en-US">Using the templates</title>
+            <filename>org.openoffice.da.w2lconfig.oxt/templates.xhp</filename>
+        </topic>
+    </meta>
+    <body>
+        <paragraph role="heading" level="1" xml-lang="en-US">Using the templates</paragraph>
+		<paragraph role="paragraph" xml-lang="en-US">You can use some special
+		Writer templates provided with Writer2LaTeX configurations to
+		create your documents. Using the styles supported by these templates, you can easily create standard LaTeX documents
+		using the opportunities of standard LaTeX document classes.
+		</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">For this initial version, templates for the standard LaTeX classes article
+        are provided. More templates will be added later (report, book, beamer...), and you can also add your own templates.
+        </paragraph>
+
+        <paragraph role="heading" level="2" xml-lang="en-US">The article template</paragraph>
+        <section id="howtoget" xml-lang="en-US">
+        	Choose <emph>File - New - Templates and Documents - Writer2LaTeX</emph>
+        </section>
+        
+        <paragraph role="paragraph" xml-lang="en-US">This template contains a number of styles that corresponds to LaTeX code.
+        If you use these styles and makes sure to use the configuration <emph>W2L: Article</emph> when you convert your document
+        (this is selected automatically) with Writer2LaTeX, you will get a result that resembles a handwritten LaTeX file.
+        Note that hard formatting and any other styles will be ignored. The available styles are summarized in the following tables.
+        </paragraph>
+        <paragraph role="heading" level="3" xml-lang="en-US">Paragraph styles</paragraph>
+        <paragraph role="heading" level="4" xml-lang="en-US">Title styles</paragraph>
+       	<table>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablehead" xml-lang="en-US">%PRODUCTNAME Writer Style</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablehead" xml-lang="en-US">LaTeX code</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">title</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\title{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">author</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\author{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">date</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\date{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">abstract title</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">renews \abstractname</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">abstract</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">abstract environment</paragraph>
+       			</tablecell>
+       		</tablerow>
+       	</table>
+       	<paragraph role="paragraph">Note that also \maketitle is added at the end of a sequence of title, author and date.</paragraph>
+        <paragraph role="heading" level="4" xml-lang="en-US">Heading styles</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">Note that the names of the heading styles are localized in %PRODUCTNAME Writer</paragraph>
+       	<table>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">part</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\part{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Heading 2</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\section{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Heading 3</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\subsection{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Heading 4</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\subsubsection{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Heading 5</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\paragraph{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Heading 6</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\subparagraph{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       	</table>
+        <paragraph role="heading" level="4" xml-lang="en-US">Other paragraph styles</paragraph>
+       	<table>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">flushleft</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">flushleft environment</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">flushright</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">flushright environment</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">center</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">center environment</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">verse</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">verse environment</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">quote</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">quote environment</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">quotation</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">quotation environment</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">verbatim</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">verbatim environment</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">theorem</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">theorem environment</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">itemize</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">itemize list</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">enumerate</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">enurerate list</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">description item</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">description list (item label)</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">description text</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">description list (item text)</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">LaTeX</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">The text content of the paragraph is inserted as verbatim LaTeX code.</paragraph>
+       			</tablecell>
+       		</tablerow>
+       	</table>
+       	<paragraph role="paragraph">For the verbatim environment, only characters available in the input encoding are accepted.
+       	Other characters are converted to question marks and other content is discarded, eg. footnotes.</paragraph>
+
+        <paragraph role="heading" level="4" xml-lang="en-US">Special paragraph styles for tables</paragraph>
+        <paragraph role="paragraph" xml-lang="en-US">%PRODUCTNAME Writer supports multipage tables with repeating headers.
+        LaTeX on the other hand also provides support for repeating foots and special header and foot on the first repspectively last
+        page of the table. The article template provides four special paragraph styles to let you use these LaTeX features.
+        Note that the special pagragraphs appear colored in %PRODUCTNAME Writer for clarity, but the colors will be removed in the export
+        to LaTeX.</paragraph>
+       	<table>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">table first head</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Identifies a row to be used as first head in table</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">table head</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Identifies a row to be used as head in table</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">table foot</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Identifies a row to be used as foot in table</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">table last foot</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Identifies a row to be used as last foot in table</paragraph>
+       			</tablecell>
+       		</tablerow>
+       	</table>
+
+        <paragraph role="heading" level="3">Text styles</paragraph>
+       	<table>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">verb</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\verb|...|</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">emph</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\emph{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">textrm</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\textrm{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">textsf</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\textsf{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">texttt</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\texttt{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">textup</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\textup{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">textsl</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\textsl{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">textit</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\textit{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">textsc</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\textsc{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">textmd</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\textmd{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">textbf</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">\textbf{...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">tiny</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">{\tiny ...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">scriptsize</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">{\sciptsize ...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">footnotesize</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">{\footnotesize ...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">small</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">{\small ...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">normalsize</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">{\normalsize ...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">large</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">{\large ...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Large</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">{\Large ...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">LARGE</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">{\LARGE ...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">huge</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">{\huge ...}</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">Huge</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">{\Huge ...}</paragraph>
+       			</tablecell>
+       		<tablerow>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">LaTeX</paragraph>
+       			</tablecell>
+       			<tablecell>
+       				<paragraph role="tablecontent" xml-lang="en-US">The text content is inserted as verbatim LaTeX code.</paragraph>
+       			</tablecell>
+       		</tablerow>
+       		</tablerow>
+       	</table>
+       	<paragraph role="paragraph">For the \verb command, only characters available in the input encoding are accepted.
+       	Other characters are converted to question marks and other content is discarded, eg. footnotes.</paragraph>
+	</body>
+</helpdocument>
